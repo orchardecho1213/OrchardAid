@@ -1,1 +1,0 @@
-export const Button = ({ children, asChild, ...props }: any) => <button {...props}>{children}</button>;
