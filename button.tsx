@@ -1,3 +1,7 @@
-export function Button({ children, asChild, variant }: any) {
-  return <button className="px-4 py-2 rounded bg-green-600 text-white">{children}</button>
+export function Button({ children, ...props }) {
+  return (
+    <button className="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition" {...props}>
+      {children}
+    </button>
+  )
 }
