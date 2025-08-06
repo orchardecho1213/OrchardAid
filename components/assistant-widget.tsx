@@ -1,1 +1,0 @@
-// Assistant widget component (placeholder)
